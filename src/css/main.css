@@ -67,6 +67,7 @@ h1:hover{
 }
 p{
 	font-weight: normal;
+	text-align: justify;
 }
 
 form{
@@ -135,7 +136,21 @@ input[type='checkbox']{
 		display: inline-block;
 
 }
+footer{
+	
+	line-height: 1em;
+	margin-top:0;
+	
 
+}
+footer h3{
+	text-align: center;
+	padding: 1rem;
+	
+}
+footer a{
+	color:white;
+}
 .error{
 
 	margin-bottom: 1rem;

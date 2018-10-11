@@ -58,6 +58,12 @@ header('location: home.php');
 </head>
 <body>
 <div class="container">
+	<header> 
+		<div>
+			<img src='src/img/PR2.png' height='100' width='100' alt='PR icon'>
+		<h1 class='float'> PR HUB: ONE PLATFORM PUBLIC RELATIONS REPOSITORY. </h1> </div>
+		
+	</header>
 	<div class='jumbotron'> 
 	<div class=row> 
 		<div class='col-md-4 bg-secondary '> 
@@ -67,10 +73,10 @@ header('location: home.php');
 
 		</div> <!--== row 1===-->
 		<div class='col-md-4 text-center card bg-primary'> <!--== row 2==-->
-		<h3 class='text-center  text-white my-1'>Who can join? </h3>
+		<h3 class='text-center  text-white my-1'>Who Can Join? </h3>
 		<p class=' text-white'>PR Hub is an open hub  to all PR practioners registered by the PRSK and university students pursuing PR course. </p>
 		<hr/>
-		<h3 class='text-center  text-white my-1'>Why should I join? </h3>
+		<h3 class='text-center  text-white my-1'>Why Should I Join? </h3>
 		<p class=' text-white'>PR hub is a centralized repo that gathers all PR materials,campaigns and projects in one platform. The hub also acts as a linkage connects students and graduates with companies storing and sharing their repositories on the hub.  All PR job postings and internships will be shared o the hub.</p>
 		<hr/>
 		</div>
@@ -84,17 +90,17 @@ header('location: home.php');
 	<form method="post" class="form">
 	<h3 class='text-center bg-danger my-2 text-white'>STUDENTS </h3>
 	  <p class='error'><?php echo $error;?> </p>
-	  <label>Name:</label>
+	  <label>1. Name:</label>
 	<input type="text"class='form-control' placeholder='Enter first name,second name' name="name">
 
-	  <label>Email address:</label>
-	<input type="email" class='form-control'name="email" value="<?php echo $email;?>">
-	<label>University:</label>
-	<input type="text" class='form-control'name="email" value="<?php echo $email;?>">
-	<label>Year of Study:</label>
-	<input type="text"class='form-control' name="name">
+	  <label>2. Email address:</label>
+	<input type="email" class='form-control'name="email" placeholder='Enter your email address' value="<?php echo $email;?>">
+	<label>3. University/College:</label>
+	<input type="text" class='form-control'name="email" placeholder='Enter your university' value="<?php echo $email;?>">
+	<label>4. Year of Study:</label>
+	<input type="text"class='form-control' placeholde='Year 4' name="name">
 
-	<input type="submit" class='btn btn-primary' name="submit" value="CONTINUE">
+	<input type="submit" class='btn btn-primary' name="submit" value="JOIN">
 		
 	</form>
 </div> <!--card body-->
@@ -103,7 +109,9 @@ header('location: home.php');
 </div> <!-- jumbotron div-->
 
 	</div>
-	
+	<footer class='bg-secondary container'>
+		<h3 class='text-white'> Copyright &copy; 2018. All rights reserved. Maintained by <a href='http://www.vincekipyegon.co.ke'>VINCE </a> </h3>
+		<footer>
 </div>
 
 </body>
