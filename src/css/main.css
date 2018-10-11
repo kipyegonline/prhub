@@ -1,0 +1,227 @@
+
+
+
+
+body{
+
+	width:90%;
+
+	margin:1rem auto;
+
+	padding: 1rem;
+
+	background: transparent;			
+
+	font-size:1.3rem;
+
+	font-family: serif;
+
+}
+
+h1{
+
+	
+
+	text-align: center;
+
+	background: red;
+
+	margin: .5rem .5rem;
+
+	padding:.5rem;
+
+	line-height: 1em;
+
+	text-transform: capitalize;
+
+	color:white;
+
+	
+
+}
+
+
+
+#header{
+
+	position: absolute;
+
+	bottom: 0;
+
+	left:350px;
+
+	display: none;
+
+	transition: all .5s linear;
+
+}
+
+h1:hover{
+
+	transition: all .5s ease-in;
+
+	transform: scale(1);
+
+	box-shadow: -2px -2px 5px #ccc,2px 2px 5px #ccc;
+
+}
+p{
+	font-weight: normal;
+}
+
+form{
+
+	background: white;
+
+	padding: 1rem;
+
+	max-width:400px;	
+
+	border-radius: 10px;
+
+	box-shadow: -2px -2px 5px #ccc,2px 2px 5px #ccc;
+
+}
+
+label{
+
+	display:block;
+
+}
+
+input{
+
+	display: block;
+
+	margin-top: .5rem;
+
+	margin:.5rem auto;
+
+	padding: 0.5rem 1rem;
+
+	font-size:1.2rem;
+
+	border-radius: 5px;
+	border:1px solid #ccc;
+	outline: none;
+	width:80%;
+
+
+
+}
+
+input[type='submit']{
+
+	width:100%;
+
+	line-height: 1em;
+
+	font-size: 1.5rem;
+
+	padding: .5rem;
+
+	
+
+	color:white;
+
+	outline:none;
+
+
+
+}
+
+input[type='checkbox']{
+
+		display: inline-block;
+
+}
+
+.error{
+
+	margin-bottom: 1rem;
+
+	color:red;
+
+	font-size: 2rem;
+
+	text-align: center;
+
+}
+
+.out{
+
+	text-decoration: none;
+
+	border:2px solid #ddd;
+
+	width:100px;
+
+	padding: 1rem;
+
+	font-size: 1.3rem;
+
+	line-height: .5;
+
+	border-radius: 10px;
+
+	text-align: center;
+
+	margin: 2rem;
+
+	color:white;
+
+	position: fixed;
+
+	bottom:0;
+
+	right: 0;
+
+	animation: anima 5s  ease alternate infinite;
+
+	transition: all.5s linear;
+
+}
+
+.comm{
+
+	width:300px;
+
+	color:white;
+
+	margin-top: 3rem;
+
+	padding: .5rem;
+
+	border: 1px solid #ddd;
+
+	transition: all .5s linear;
+
+}
+
+.comm:hover{
+
+	border-radius: 10px;
+
+	box-shadow: -2px -2px 5px #ccc,2px 2px 5px #ccc;
+
+}
+
+.out:hover{
+
+	background: red;
+
+}
+
+@keyframes anima{
+		0% {
+
+		background: blue;
+	}
+
+100% {
+
+		background: red;
+
+	}
+
+}
