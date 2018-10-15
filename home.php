@@ -234,7 +234,9 @@ if(array_key_exists('student', $_POST)){
 		<h3 class='text-white'> Copyright &copy; 2018. All rights reserved. Maintained by <a href='http://www.vincekipyegon.co.ke'>VINCE </a> </h3>
 		<footer>
 </div>
-<script src="src//js//main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+<script src="src/js/main.js"></script>
 
 </body>
 </html>

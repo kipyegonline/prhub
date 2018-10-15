@@ -43,7 +43,7 @@
                 const result=res.results;
                 
                 const randomUser=document.getElementById('random-user');
-                console.log(randomUser)
+                
                 let output=''
                  result.map(resul=>{
                      
