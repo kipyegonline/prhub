@@ -47,6 +47,9 @@ header h1{
 hr{
 	border-bottom:1px solid #ddd;
 }
+#grad, #student,#comp, #pro{
+	display:none;
+}
 .join{
 	transition: all .5s ease;
 	animation: joiner ease-in-out 3s alternate infinite;
@@ -243,6 +246,7 @@ ol.errors li {
 
 }
 
+
 .comm:hover{
 
 	border-radius: 10px;
@@ -256,6 +260,8 @@ ol.errors li {
 	background: red;
 
 }
+/*Members*/
+
 
 @keyframes anima{
 		0% {

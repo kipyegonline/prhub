@@ -1,7 +1,7 @@
 <?php
 //include_once('./php/db.php');
 function extractValue($value){
-    return strip_tags(htmlspecialchars($_POST[$value]));
+    return strip_tags(htmlspecialchars(htmlentities($_POST[$value])));
     
     
 }
