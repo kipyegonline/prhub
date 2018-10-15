@@ -18,43 +18,66 @@ body{
 
 }
 
-h1{
+header{
 
 	
 
-	text-align: center;
+	background: purple;
+	border-radius:0px 10px 10px 0;
+	box-shadow:-2px -2px 5px #fff,2px 2px 5px #fff;
+  width:100%;
+  margin:auto;
+	
 
-	background: red;
+	
 
+}
+header h1{
 	margin: .5rem .5rem;
+	text-align: justify;
 
-	padding:.5rem;
+	padding:1rem;
 
 	line-height: 1em;
 
 	text-transform: capitalize;
 
 	color:white;
-
-	
-
 }
-
-
-
-#header{
-
-	position: absolute;
-
-	bottom: 0;
+hr{
+	border-bottom:1px solid #ddd;
+}
+.join{
+	transition: all .5s ease;
+	animation: joiner ease-in-out 3s alternate infinite;
+	border-radius: 5px;
+	font-weight: bold;
+	border:2px solid purple;
+}
+.join:hover{
+	background:red;
+	color:white;
+	border:none;
+}
+.welcome{
+	margin:auto;
+}
+#header{	
 
 	left:350px;
 
-	display: none;
+	display: block;
 
 	transition: all .5s linear;
 
 }
+
+/*.banner img{
+	margin:0;
+	padding:0;
+	border:1px solid green;
+	overflow:hidden;
+} */
 
 h1:hover{
 
@@ -157,10 +180,21 @@ footer a{
 
 	color:red;
 
-	font-size: 2rem;
+	font-size: 1.3rem;
 
 	text-align: center;
 
+}
+.add_error{
+border-color: red;
+}
+.remove_error{
+	border:1px solid green;
+
+}
+ol.errors li {
+	
+	color:red;
 }
 
 .out{
@@ -169,8 +203,7 @@ footer a{
 
 	border:2px solid #ddd;
 
-	width:100px;
-
+	
 	padding: 1rem;
 
 	font-size: 1.3rem;
@@ -181,15 +214,12 @@ footer a{
 
 	text-align: center;
 
-	margin: 2rem;
+	margin: .5rem;
 
 	color:white;
 
-	position: fixed;
-
-	bottom:0;
-
-	right: 0;
+	position: relative;
+	
 
 	animation: anima 5s  ease alternate infinite;
 
@@ -239,4 +269,35 @@ footer a{
 
 	}
 
+}
+@keyframes joiner{
+0%  {
+	transform: translateX(-10px);
+
+}
+30%  {
+	transform: translateX(10px);
+	
+}
+60%{
+ transform: translateX(20px);
+		
+	
+}
+100% {
+	transform:translateX(30px);
+}
+}
+@media screen and (max-width:468px){
+	.banner{
+		height:160px;
+		margin-bottom:0;
+		display:none;
+	}
+}
+@media screen and (max-width:720px){
+	.banner{
+		height:240px;
+		margin-bottom:0;
+	}
 }
