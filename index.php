@@ -42,7 +42,7 @@ $user=$_SESSION['user'];
 	<div class="comm col-md-6 col-sm-6 bg-primary ">
 	<h1 class='bg-danger text-center'> www.prhub.co.ke</h1>
 	<h1 id='header'> Hello <?php echo $user;?>, welcome to PR Hub</h1>
-	<p>We will set up the remaining part of your account and get back to you soon...</p>
+	<p>Your account is almost complete</p>
 	<a  class=' btn btn-warning' target-"_blank" href="https://www.prsk.co.ke"> PRSK website</a>
 	<a  class='out btn btn-link' href="home.php?logout=true">Log Out</a>
 	

@@ -45,7 +45,7 @@ header h1{
 	color:white;
 }
 hr{
-	border-bottom:1px solid #ddd;
+	border-bottom:1px solid #ccc;
 }
 #grad, #student,#comp, #pro{
 	display:none;
@@ -96,7 +96,7 @@ p{
 	text-align: justify;
 }
 
-form{
+#grad, #student,#comp, #pro{
 
 	background: white;
 
@@ -165,7 +165,7 @@ input[type='checkbox']{
 footer{
 	
 	line-height: 1em;
-	margin-top:0;
+	margin:0;
 	
 
 }

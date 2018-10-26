@@ -2,7 +2,8 @@
 		<div>
 			<img src='src/img/PR2.png' class='float-left mr-3' height='70' width='100' alt='PR icon'></div>
 		<h1 > PR HUB:  A PLATFORM </h1> 
-		</header><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
   <a class="navbar-brand navbar-toggler" href="#">PR HUB</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,10 +17,10 @@
         <a class="nav-link" href="./members.php">Members</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Repos</a>
+        <a class="nav-link" href="./repository.php">Repository</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Volunteer</a>
+        <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
     </ul>
   </div>
